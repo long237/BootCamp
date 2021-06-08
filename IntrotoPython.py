@@ -172,7 +172,14 @@ else:
 for i in range(5):
         #print("Value of i:", i)
         print("Hello World")
-        
+
+#The same can be achieve using a while loop:
+
+i = 0
+while i < 5:
+    print("Go Beach")
+    i = i + 1 
+    
 
 
 
