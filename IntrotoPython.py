@@ -154,6 +154,9 @@ if i > 5:
 
 #This block will execute from a top down order one line after another
 #Which statement to be printed will depends on the value of "i"
+#Indentation in Python is very important since it signified what statement will be executed
+#depends on which condition is met. You will get an error
+    
 i = 99
 if i > 200:
     print ("Hello World")
@@ -161,6 +164,15 @@ elif i > 10:
     print ("Go Beach")
 else:
     print ("GME to the moon")
+
+#For loops.
+#Let say you want to print "Hello World" 5 times, how would you do it without writing 5 "print" statement?
+#Also becareful with the value of "i" when you work with with loops and the range() function
+
+for i in range(5):
+        #print("Value of i:", i)
+        print("Hello World")
+        
 
 
 
