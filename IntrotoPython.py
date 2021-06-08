@@ -19,8 +19,12 @@ print('Hello World')
 x = 5       #integer
 y = 2.64    #float
 z = 3.14
+
 u = True    #bool
 v = False   #bool
+
+r = "5"     #String
+s = "3.14"  #String
 
 
 #Printing numbers to the console
@@ -67,6 +71,9 @@ print("Value of p:", p)
 #What happened when we add 2 strings?
 p = r + s
 print("Value of p:", p)
+
+#How would we solve this problem??
+#You can change the data type from one to another using "Casting"
 
 #Subtraction
 p = m - n
@@ -115,7 +122,45 @@ L = (j <= k)
 L = (j > k)
 L = (j >= k)
 
+#Logial operators such as And, Or, Not
+#There are words in Python that are reserved for functions and operators such as these
+#What if you want to do more than one comparison on one single line?
 
+x = 4
+
+shark = x < 10 and x > 2
+print("Value of shark: ", shark)
+
+shark = x < 10 or x > 2
+
+shark = not(x < 10)
+
+
+#Python If...else statements (also know as Conditional statement)
+#What if you want a certain things to happen when a condition is met??
+
+#Print "Go Beach" if i > 5
+
+i = 100
+if i > 5:
+    print("Go Beach")
+
+#You can also do more in the "if block" such as adding another print line 
+
+#3 keyword to remembers for conditional statement
+    # 1. If
+    # 2. Else if (elif)
+    # 3. Else
+
+#This block will execute from a top down order one line after another
+#Which statement to be printed will depends on the value of "i"
+i = 99
+if i > 200:
+    print ("Hello World")
+elif i > 10:
+    print ("Go Beach")
+else:
+    print ("GME to the moon")
 
 
 
