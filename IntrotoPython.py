@@ -179,6 +179,13 @@ i = 0
 while i < 5:
     print("Go Beach")
     i = i + 1 
+
+#Functions for user input:
+#The function will return a String when the user enter a value which means if you are asking for a number
+#and you want to do math with it, you will have to cast it to an interger or a float
+
+name = input("Enter your name: ")
+print ("Hello, " + name)
     
 
 
