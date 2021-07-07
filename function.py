@@ -6,6 +6,12 @@
 
 #I) Defining functions:
 
+#Till now you probably are familiar with some function such as print()
+#print() is a built-in function that is in Python library that allow you to print a String to a console
+
+print("Go Beach")
+
+#However, you can make you own functions depends on the purpose of your program.
 #You can define a new function using the keyword "def" follows by the function name and a set of parentheses
 
 def say_hello():
