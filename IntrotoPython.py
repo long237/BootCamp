@@ -1,6 +1,6 @@
 #Introduction to Python
 
-#Comments
+#Python Comments
 #Any line with the symbol "#", at the begining will be ignored by Python
 #Such as this one
 
@@ -90,6 +90,19 @@ print("Value of p:", p)
 #Exponential
 p = m ** n
 print("Value of p:", p)
+
+#Modifying a variable then assign it to itself
+z = 1
+print("Value of z: ", z)
+
+
+z = z + 1
+#What would be the value of Z after this operation?
+print(z)
+
+#Although it looks wrong mathemtically since "z" cannot be equal to "z + 1"
+#This statement is saying that take the "z" value previously, add one to it then save it back to "z"
+
 
 #Comparison operators
 #Aside from operators that are used for math and string concatenations,
