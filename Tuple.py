@@ -74,4 +74,32 @@ while (j < len(mytuple)):
     j = j + 1
 
 
+# oOo 4)Storing many small tuples in a large tuple: oOo
+
+crypto = ((1, "Bitcoin"), (2, "DOGE"), (3, "Etherium"))
+
+#Accessing the smaller tuples within the large one:
+
+#Accessing the first tuple
+print()
+print(crypto[0])
+
+#Unpacking the elements within the small tuple
+(index, name) = crypto[0]
+print("Index:", index)
+print("Name of crypto:", name)
+
+#2nd tuple
+print()
+print(crypto[1])
+(index, name) = crypto[1]
+print("Index:", index)
+print("Name of crypto:", name)
+
+
+
+
+
+
+
     

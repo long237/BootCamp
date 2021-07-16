@@ -79,3 +79,65 @@ print(crypto)
 #Removing a value using remove() function
 crypto.remove("bitcoin")
 print(crypto)
+print()
+
+# oOo 4)Itering lists using loops: oOo
+
+drinkList = ["Pepsi", "Cocacola", "Rootbeer", "DietCoke"]
+
+#Using a for loop
+for drink in drinkList:
+    print(drink)
+print()
+
+#Using a for loop with index
+for i in range(len(drinkList)):
+    print(drinkList[i])
+print()
+
+#Using a while loop:
+i = 0
+while (i < len(drinkList)):
+    print(drinkList[i])
+    i = i + 1
+print()
+    
+
+
+# oOo 5)Storing lists within a list (2D lists):
+
+#There might be time where you might want to store different lists within one larger one
+
+
+#List of different animals 
+bioList = [["shark", "whale", "swordfish"],
+           ["lion", "panda", "tiger"],
+           ["eagle", "owl", "pelican"]]
+
+
+#The list works very similar to the normal list
+
+#Accessing a smaller list within the large list
+print("List of animals that live in the ocean:")
+print(bioList[0])
+print()
+
+print("List of land animals:")
+print(bioList[1])
+print()
+
+print("List of birds: ")
+print(bioList[2])
+print()
+
+#Accessing elements within a list
+#If you treat a 2D array like a math matrix
+#Then the first square bracket is the index of the row while the second square bracket is the index of the collumn
+
+#Or if you prefer to think of it as list then the first square bracket indicate the smaller list within the bigger list
+#Then the second square bracket is the index of the elements within that smaller list
+
+#Accessing the first element in the 2D array
+print(bioList[0][0])
+
+print(bioList[1][2])
