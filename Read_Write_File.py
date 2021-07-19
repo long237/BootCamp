@@ -36,7 +36,7 @@ for name in myfile:
 #print("Hello", myfile.readline())
 
 #Closing the file:
-#It is a good practice to close the file to prevent unexpected things to happen when you code. 
+#It is a good practice to close the file to prevent unexpected things to happen when you run your code. 
 myfile.close()
 
 
