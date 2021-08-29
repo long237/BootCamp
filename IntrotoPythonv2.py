@@ -4,11 +4,12 @@
 #Any lines with the symbol "#" (pound sign), at the begining will be ignored by Python
 #Such as this one
 #Go Beach
+#CSULB Business
 
 # 1)Print Statements
 print("Hello World")
 print('Hello World')
-print("GME to the moon")
+print("Go beach")
 
 #Numbers and variables
 #Just like in math, you can save values such as number into variables
@@ -22,9 +23,11 @@ x = 5       #integer
 y = 2.64    #float
 z = 3.1412344
 bitcoin = 55000
+pigeon = 22
 
 u = True    #bool
 v = False   #bool
+
 
 r = "5"     #String
 s = "3.14"  #String
@@ -56,10 +59,10 @@ b = "Long"
 #Combingning and printing Strings (String Concatenation)
 #What would be the value of c ?
 
-c = a + b
+c = "hi" + b
 print(c)
-print("Hello"+ " " + b)
-print("hello"+ " " + "Long")
+print("Hello" + b)
+print("hello" + "Long")
 
 # 2)Python Operators
 #Python contains your normal math operators which are straight forward
@@ -67,8 +70,8 @@ print("hello"+ " " + "Long")
 
 m = 5
 n = 2
-r = "5"
-s = "2"
+r = "5" #string
+s = "2" #string
 
 #Operators that are mostly used for math
 #Addition
@@ -140,9 +143,9 @@ print("Value of L:", L)
 #Less than and Less than or equal to
 
 L = (j < k)
-print("Less than:", L)
+print("Less than;;;;;;;", L)
 L = (k <= j)
-print("Less than or equal:", L)
+print("Less than or equal:::::::::", L)
 
 
 #More than and more than or equal to
@@ -170,14 +173,14 @@ print("Value with not: ", shark)
 
 #Print "Go Beach" if i > 5
 
-##i = 100
-##if i > 5:
+##i = 25
+##if i > 10:
 ##    print("Go Beach")
 ##    x = 5 + 9
 ##    print("Value of x: ", x)
-##    if i > 20:
-##        print("Hello world")
-##print("GME to the moon")        #Outside if statement,execute no matter what value of i is
+##    if i > 5:
+##        print("GME to the moon")        #Outside if statement,execute no matter what value of i is
+##print("CSULB")
 
 #You can also do more in the "if block" such as adding another print line
 #Just make sure the identation is correct
@@ -191,25 +194,34 @@ print("Value with not: ", shark)
 #Which statement to be printed will depends on the value of "i"
 #Indentation in Python is very important since it signified what statement will be executed
 #depends on which condition is met. You will get an error
-    
-i = 20
-if i > 200:
-    print ("Hello World")
-elif i > 50:
-    print ("Go Beach")
-elif i > 10:
-    print ("shark")
+
+##print("-----------------")  
+##i = 2
+##if i > 200:
+##    print ("Hello World")
+##elif i > 50:
+##    print ("Go Beach")
+##elif i > 10:
+##    print ("shark")
+##elif i > 5:
+##    print("CSULB")
+##else:
+##    print ("GME to the moon")
+
+##print("-----------------") 
+##i = 300
+##if i > 200:
+##    print ("Hello World")
+##if i > 10:
+##    print("Go Beach")
+##if i > 5:
+##    print ("GME to the moon")
+
+h = "whale "
+if h == "whale":
+    print("Congratulations!!!")
 else:
-    print ("GME to the moon")
-
-
-i = 300
-if i > 200:
-    print ("Hello World")
-if i > 10:
-    print("Go Beach")
-if i > 5:
-    print ("GME to the moon")
+    print("Your guess is wrong")
 
 
 #6)Python loops:
@@ -225,9 +237,10 @@ print("hello world")
 print("hello world")
 
 print("----------------")
-for whale in range(8):
-    print("Value of whale:", whale)
+for bird in range(8):
+    print("Value of bird:", bird)
     print("Hello World")
+print("Diamond hands")
 
 #The same can be achieve using a while loop:
 
@@ -246,7 +259,9 @@ while i < 5:
 #and you want to do math with it, you will have to cast it to an interger or a float
 
 name = input("Enter your name: ")
-print ("Hello, " + name)
+w = int(name) + 100
+print(w)
+##print ("Hello, " + w)
     
 
 
