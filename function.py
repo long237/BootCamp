@@ -9,20 +9,22 @@
 #Till now you probably are familiar with some function such as print()
 #print() is a built-in function that is in Python library that allow you to print a String to a console
 
-print("Go Beach")
+#print("Go Beach")
 
 #However, you can make you own functions depends on the purpose of your program.
 #You can define a new function using the keyword "def" follows by the function name and a set of parentheses
 
 def say_hello():
     print("Hello World! My name is John")
+print("Go beach")
 
 #Run the file and see if anything happens on the console. 
 
 #Codes within the function don't run untill you call the function
 
 say_hello()
-
+say_hello()
+say_hello()
 
 #II)Arguments:
 
@@ -30,10 +32,10 @@ say_hello()
 
 #For example, a function that takes in a random user's name and say hello to that person
 
-def hello(user_name):
-    print("Hello", user_name, "from CSULB")
+def hello(user_name, major):
+    print("Hello", user_name, "from CSULB major in ", major)
 
-hello("Elizabeth")
+hello("Elizabeth", "Business")
 
 #A function can also do some calculation and return a value to be saved
 #into a variable for later use.
@@ -41,20 +43,31 @@ hello("Elizabeth")
 #Example 2: a function that ask for 2 numbers and provide the sum.
 def sum(a, b):
     total = a + b
+    y = 20
     return total
+    print("Hello world")
 
-c = sum(2, 3)
+num1 = 2
+num2 = 3
+c = sum(num1, num2)
+c = 2 * c
 print("The sum of a and b is: ", c)
 
 #III) Scope:
 #Some variables are only accessible within the place that they are created
 
-x = 50
+a = 50
 def rand_function():
     x = 22
     print("Value of x within the function:", x)
+    print(x)
+    # return x
 
-print(x)            #What value would this line print??
+rand_function()
+# x = 100
+# print(x)            #What value would this line print??
+# x = rand_function()
+# print("Val of x: " , x)
 
 #If you call function rand_function() then what value would print?
 #Although both variables are name "x", they are not the same variable.
@@ -89,6 +102,7 @@ def main():
     print(name, "major is", major)
     
 
-main()
+# main()
 
 
+rand_function()
